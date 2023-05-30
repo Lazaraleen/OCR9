@@ -37,6 +37,7 @@ h4 { font-size: 1.2rem;}
 }
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 #about {
 	display: flex;
@@ -44,6 +45,12 @@ h4 { font-size: 1.2rem;}
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
+}
+#about .picture img{
+	aspect-ratio: 1 / 1;
+}
+.carousel-item img {
+	aspect-ratio: 16 / 7.4;
 }
 .picture.left::before {
 	content: ' ';
@@ -171,6 +178,9 @@ h4 { font-size: 1.2rem;}
 	position: relative;
 	padding-inline: 100px;
 	padding-block: 100px;
+}
+#contact .picture img{
+	aspect-ratio: 1 / 1;
 }
 #contact .container {
 	display: flex;
